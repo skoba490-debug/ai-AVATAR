@@ -1,24 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Ultra</title>
+<title>AI Pro Max Ultra</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="app">
+
 <div class="header">AI Pro Max Ultra</div>
+
+<div class="tabs">
+  <button onclick="setMode('chat')">💬 Chat</button>
+  <button onclick="setMode('image')">🎨 Image</button>
+  <button onclick="setMode('media')">🎬 Media</button>
+  <button onclick="setMode('tarot')">🔮 Tarot</button>
+</div>
 
 <div id="chat"></div>
 
 <div class="inputBar">
-<button onclick="startVoice()">🎤</button>
+  <input id="input" placeholder="Напиши или скажи...">
+  <button onclick="send()">➤</button>
+</div>
+
+<div class="voiceBar">
+  <button onclick="startVoice()">🎤</button>
 </div>
 
 </div>
 
 <script src="app.js"></script>
 </body>
+</html>
 </html>
