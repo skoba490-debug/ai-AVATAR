@@ -1,5 +1,63 @@
-body{margin:0;background:#000;color:#fff;font-family:sans-serif;}
-.header{text-align:center;padding:15px;}
-#chat{height:70vh;overflow:auto;padding:10px;}
-.msg{background:#111;padding:10px;border-radius:15px;margin:5px 0;}
-.inputBar{padding:10px;text-align:center;}
+body{
+  margin:0;
+  font-family:-apple-system;
+  background: radial-gradient(circle,#0f172a,#000);
+  color:white;
+}
+
+.header{
+  text-align:center;
+  padding:20px;
+  font-size:20px;
+}
+
+.tabs{
+  display:flex;
+  justify-content:space-around;
+  padding:10px;
+}
+
+.tabs button{
+  background:#111;
+  border:none;
+  color:white;
+  padding:10px 15px;
+  border-radius:15px;
+}
+
+#chat{
+  height:65vh;
+  overflow:auto;
+  padding:10px;
+}
+
+.msg{
+  background:#111;
+  padding:12px;
+  border-radius:20px;
+  margin:8px 0;
+}
+
+.inputBar{
+  display:flex;
+  padding:10px;
+}
+
+input{
+  flex:1;
+  padding:10px;
+  border-radius:20px;
+  border:none;
+}
+
+.voiceBar{
+  text-align:center;
+  padding:10px;
+}
+
+.voiceBar button{
+  font-size:22px;
+  padding:10px;
+  border-radius:50%;
+  border:none;
+}
